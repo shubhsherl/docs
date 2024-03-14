@@ -1,12 +1,12 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Mintlify",
+  "name": "Plivo",
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg",
-    "href": "https://mintlify.com"
+    "light": "/logo/Plivo-logo.svg",
+    "dark": "/logo/Plivo-logo.svg",
+    "href": "https://www.plivo.com/"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/plivo-favicon.png",
   "colors": {
     "primary": "#0D9373",
     "light": "#55D799",
@@ -23,17 +23,17 @@
   },
   "topbarLinks": [
     {
-      "name": "Community",
-      "url": "https://mintlify.com/community"
+      "name": "Support",
+      "url": "https://support.plivo.com/hc/en-us/requests/new?ticket_form_id=360000156292"
     }
   ],
   "topbarCtaButton": {
-    "name": "Get Started",
-    "url": "https://mintlify.com/start"
+    "name": "Login",
+    "url": "https://console.plivo.com/accounts/login/"
   },
   "feedback": {
-    "thumbsRating": true,
-    "suggestEdit": true
+    "thumbsRating": false,
+    "suggestEdit": false
   },
   "tabs": [
     {
