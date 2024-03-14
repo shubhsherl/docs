@@ -32,16 +32,28 @@
     "url": "https://console.plivo.com/accounts/login/"
   },
   "feedback": {
-    "thumbsRating": false,
+    "thumbsRating": true,
     "suggestEdit": false
   },
   "tabs": [
     {
-      "name": "Components",
+      "name": "Messaging API",
       "url": "content"
     },
     {
-      "name": "Integrations",
+      "name": "Voice API",
+      "url": "integrations"
+    },
+    {
+      "name": "Verify API",
+      "url": "integrations"
+    },
+    {
+      "name": "SIP Trunking",
+      "url": "integrations"
+    },
+    {
+      "name": "Phone Numbers",
       "url": "integrations"
     }
   ],
@@ -138,24 +150,54 @@
       ]
     },
     {
-      "group": "Components",
+      "group": "Getting Started",
       "pages": [
-        "content/components/accordions",
-        "content/components/accordion-groups",
-        "content/components/callouts",
-        "content/components/cards",
-        "content/components/card-groups",
-        "content/components/code",
-        "content/components/code-groups",
-        "content/components/frames",
-        "content/components/mermaid-diagrams",
-        "content/components/steps",
-        "content/components/tabs",
-        "content/components/tooltips"
+        {
+          "group": "Quickstart Guides",
+          "pages": [
+            "content/components/accordions",
+            "content/components/accordion-groups",
+            "content/components/callouts",
+            "content/components/cards",
+            "content/components/card-groups",
+            "content/components/code"
+          ]
+        },
+        {
+          "group": "Migration Guides",
+          "pages": [
+            "content/components/steps",
+            "content/components/tabs",
+            "content/components/tooltips"
+          ]
+        },
+        {
+          "group": "Server SDK Migration Guides",
+          "pages": [
+            "content/components/frames",
+            "content/components/mermaid-diagrams"
+          ]
+        }
       ]
     },
     {
-      "group": "API Components",
+      "group": "Voice Concepts",
+      "pages": [
+        {
+          "group": "Concepts",
+          "pages": [
+            "content/components/accordions",
+            "content/components/accordion-groups",
+            "content/components/callouts",
+            "content/components/cards",
+            "content/components/card-groups",
+            "content/components/code"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "API Reference",
       "pages": [
         "content/components/params",
         "content/components/responses",
@@ -164,11 +206,7 @@
       ]
     }
   ],
-  "footerSocials": {
-    "github": "https://github.com/mintlify",
-    "slack": "https://mintlify.com/community",
-    "twitter": "https://twitter.com/mintlify"
-  },
+  "footerSocials": {},
   "analytics": {
     "ga4": {
       "measurementId": "G-RCYWHL7EQ7"
