@@ -41,20 +41,48 @@
       "url": "content"
     },
     {
-      "name": "Voice API",
+      "name": "Integrations",
       "url": "integrations"
+    },
+    {
+      "name": "Voice API",
+      "url": "voice-api"
     },
     {
       "name": "Verify API",
-      "url": "integrations"
+      "url": "verify-api"
     },
     {
       "name": "SIP Trunking",
-      "url": "integrations"
+      "url": "spi-trunking"
     },
     {
       "name": "Phone Numbers",
-      "url": "integrations"
+      "url": "phone-numbers"
+    },
+    {
+      "name": "Account API",
+      "url": "account-api"
+    },
+    {
+      "name": "Client SDKs",
+      "url": "client-sdks"
+    },
+    {
+      "name": "Lookup API",
+      "url": "lookup-api"
+    },
+    {
+      "name": "Full API Reference",
+      "url": "api-reference"
+    },
+    {
+      "name": "PHLO",
+      "url": "phlo"
+    },
+    {
+      "name": "Number Masking",
+      "url": "number-masking"
     }
   ],
   "navigation": [
@@ -181,7 +209,7 @@
       ]
     },
     {
-      "group": "Voice Concepts",
+      "group": "SMS Concepts",
       "pages": [
         {
           "group": "Concepts",
@@ -189,6 +217,14 @@
             "content/components/accordions",
             "content/components/accordion-groups",
             "content/components/callouts",
+            {
+              "group": "Callbacks",
+              "pages": [
+                "content/components/cards",
+                "content/components/card-groups",
+                "content/components/code"
+              ]
+            },
             "content/components/cards",
             "content/components/card-groups",
             "content/components/code"
