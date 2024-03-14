@@ -265,7 +265,7 @@
               "group": "Templated Messages",
               "pages": [
                 "content/components/accordions",
-                "content/components/accordion-groups",
+                "content/components/accordion-groups"
               ]
             },
             "content/components/accordions",
