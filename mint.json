@@ -233,12 +233,94 @@
       ]
     },
     {
+      "group": "Whatsapp Concepts",
+      "pages": [
+        {
+          "group": "Whatsapp Guides",
+          "pages": [
+            "content/components/accordions",
+            "content/components/accordion-groups",
+            "content/components/callouts",
+            "content/components/card-groups",
+            "content/components/code"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Use case Guides",
+      "pages": [
+        {
+          "group": "SMS/MMS",
+          "pages": [
+            "content/components/accordions",
+            "content/components/accordion-groups",
+            "content/components/callouts"
+          ]
+        },
+        {
+          "group": "Whatsapp",
+          "pages": [
+            {
+              "group": "Templated Messages",
+              "pages": [
+                "content/components/accordions",
+                "content/components/accordion-groups",
+              ]
+            },
+            "content/components/accordions",
+            "content/components/accordion-groups",
+            "content/components/callouts"
+          ]
+        }
+      ]
+    },
+    {
       "group": "API Reference",
       "pages": [
         "content/components/params",
         "content/components/responses",
         "content/components/expandables",
         "content/components/sticky-examples"
+      ]
+    },
+    {
+      "group": "XML Reference",
+      "pages": [
+        {
+          "group": "Overview",
+          "pages": [
+            "content/components/accordions",
+            "content/components/accordion-groups",
+            "content/components/callouts",
+            "content/components/card-groups",
+            "content/components/code"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "10DLC",
+      "pages": [
+        {
+          "group": "Guides",
+          "pages": [
+            "content/components/accordions",
+            "content/components/accordion-groups",
+            "content/components/callouts"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Troubleshooting",
+      "pages": [
+        {
+          "group": "Guides",
+          "pages": [
+            "content/components/accordions"
+          ]
+        }
       ]
     }
   ],
